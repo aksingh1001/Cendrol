@@ -1,0 +1,37 @@
+.joke-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+}
+.joke-modal .modal-head{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.joke-modal .modal-head .joke-heading{
+    margin-right: 30px;
+}
+.joke-modal .next-Joke{
+    width: 100%;
+    height: 25px;
+    background-color: aqua;
+    padding: 2px;
+}
+.joke-modal .joke{
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
